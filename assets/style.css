@@ -1,39 +1,108 @@
+/* Подключение шрифтов */
 @font-face {
-    font-family: 'Montsserat';
-    src: url(font/static/Montserrat-Regular.ttf);
+    font-family: 'Montserrat';
+    src: url("font/static/Montserrat-Regular.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Montsserat';
-    src: url(font/static/Montserrat-Medium.ttf);
+    font-family: 'Montserrat';
+    src: url("font/static/Montserrat-Medium.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'Montsserat';
-    src: url(font/static/Montserrat-SemiBold.ttf);
+    font-family: 'Montserrat';
+    src: url("font/static/Montserrat-SemiBold.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
     font-weight: 600;
 }
 
 @font-face {
-    font-family: 'Montsserat';
-    src: url(font/static/Montserrat-Bold.ttf);
+    font-family: 'Montserrat';
+    src: url("font/static/Montserrat-Bold.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'Montsserat';
-    src: url(font/static/Montserrat-Black.ttf);
+    font-family: 'Montserrat';
+    src: url("font/static/Montserrat-Black.ttf") format("truetype");
     font-style: normal;
     font-display: swap;
     font-weight: 900;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+.section_1{
+    background-image: url(../assets/img/background_1.png);
+    width: 1600px;
+    height: 1111px;
+    margin: 0 auto;
+}
+/* Хедер */
+.logo{
+    width: 394px;
+    height: 148px;
+}
+.header{
+    display: flex;
+    padding: 27px 55px 17px 55px;
+}
+    /* Socials */
+    .socials{
+    display: flex;
+    }
+    .social_text{
+    margin: 0 7px 0 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    }
+    .social_item{
+    display: flex;
+    text-decoration: none;
+    }
+.phone{
+    padding: 46px 0px 0px 0px;
+}
+.phone_number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 65px; 
+}
+.motto{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 49px 89px 0px 156px;
+}
+.seporator{
+    margin: 0 auto;
+    width: 80%;
+    height: 1px;
+    background-color: #FFFFFF;
 }
