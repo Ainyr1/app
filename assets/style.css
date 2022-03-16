@@ -49,6 +49,12 @@ body{
 a{
     text-decoration: none;
 }
+input::-webkit-input-placeholder{
+    white-space: pre-wrap;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* Секция 1 */
 .section_1{
     background-image: url(../assets/img/background_1.png);
     width: 1600px;
@@ -105,7 +111,7 @@ a{
 }
 .seporator{
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
     height: 1px;
     background-color: #FFFFFF;
 }
@@ -244,3 +250,235 @@ a{
     line-height: 29px;
     color: #FFFFFF;
 }
+/* Секция 2 */
+.section_2{
+    width: 1600px;
+    height: 779px;
+    display: flex;
+    margin: 0 auto;
+}
+.cov19screen{
+    margin: 88px 182px 70px 116px;
+}
+.sec2_info{
+    width: 602px;
+    height: 312px;
+    margin: 100px 115px 100px 0px;
+}
+.sec2_title{
+    width: 409px;
+    height: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.sec2_text{
+    width: 602px;
+    height: 312px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+.sec2_button{
+    width: 480px;
+    height: 91px;
+    background: #A56492;
+    border-radius: 20px;
+    filter: drop-shadow(0px 2px 22px #000000);
+}
+.sec2_buttontext{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 31px 46px 31px 41px
+}
+/* Секиця 3 */
+.section_3{
+    width: 1600px;
+    height: 872px;
+    margin: 0 auto;
+    display: flex;
+}
+.sec3_director{ 
+    width: 585px;
+    height: 598px;
+    margin: 100px 0px 115px 114px;
+}
+.director_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #402D50;
+}
+.director_job{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 257px;
+    height: 48px;
+    color: #000000;
+}
+.sec3_form{
+    width: 614px;
+    height: 215px;
+    margin: 105px 110px 100px 165px;
+}
+.form_title{
+    width: 623px;
+    height: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.form_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #402D50;
+    margin-bottom: 21px;
+}
+.form_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 613px;
+    height: 288px;
+    color: #000000;
+    margin-bottom: 59px;
+}
+.sec3_form_placeholders{
+    width: 640px;
+    height: 60px;
+}
+.input_name{
+    width: 278px;
+    height: 60px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.input_phonenumber{
+    margin-left: 58px;
+    width: 278px;
+    height: 60px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.input_calltime{
+    margin-top: 63px;
+    width: 278px;
+    height: 91px;
+    background: #A9A6A8;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sec3_form_button_and_placeholder{
+    width: 640px;
+    height: 92px;
+    display: flex;
+}
+.sec3_button{
+    display: flex;
+    margin-left: 58px;
+    width: 278px;
+    height: 91px;
+    margin-top: 63px;
+    background: #A56492;
+    border-radius: 20px;
+}
+.sec3_button_img{
+    width: 61px;
+    height: 61px;
+    margin: 15px 0px 15px 38px;
+}
+.sec3_button_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 31px 42px 11px 9px;
+}
+/* Секция 4 */
+.section_4{
+    width: 1600px;
+    height: 1674px;
+    margin: 0 auto;
+    background-image: url(../assets/img/map.png);
+}
+.video{
+    width: 1024px;
+    height: 552px;
+    padding-top: 100px;
+    margin: 0px 289px 0px 288px;
+}
+.sec4_title{
+    width: 1004.87px;
+    height: 90.17px;
+    margin: 0 auto;
+    margin-top: 122px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+}
+.sec4_title span{
+    color: #402D50;
+}
+.map_text{
+    margin: 38px 0px 0px 504px;
+    width: 603.12px;
+    height: 57.38px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+/* Секиця 5 */
